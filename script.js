@@ -26,5 +26,6 @@ const handleChange = () => {
 }
 
 inputs.forEach(input => input.addEventListener('focus', handleFocus))
+// Quando sair de foco usamos o focusout
 inputs.forEach(input => input.addEventListener('focusout', handleFocusOut))
 inputs.forEach(input => input.addEventListener('input', handleChange))

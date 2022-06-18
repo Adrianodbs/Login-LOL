@@ -138,6 +138,7 @@ main {
 }
 
 .input--checkbox {
+  /* appearance é para tirar todo estilo predefinido do checkbox */
   appearance: none;
   width: 20px;
   height: 20px;
@@ -176,6 +177,7 @@ main {
 }
 
 .login__button svg {
+  /* Fill é o preenchimento */
   fill: white;
 }
 
